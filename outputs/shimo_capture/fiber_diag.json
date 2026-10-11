@@ -1,0 +1,55 @@
+{
+  "body": {
+    "reactKeys": [],
+    "tag": "BODY",
+    "id": "",
+    "cls": "lizard-one zh-CN"
+  },
+  "sm-sheet-wrapper": {
+    "reactKeys": [
+      "__reactContainere$tjpjn4wl6t8"
+    ],
+    "tag": "DIV",
+    "id": "",
+    "cls": "sm-sheet-wrapper"
+  },
+  "spreadsheet-view": {
+    "reactKeys": [
+      "__reactInternalInstance$tjpjn4wl6t8",
+      "__reactEventHandlers$tjpjn4wl6t8"
+    ],
+    "tag": "DIV",
+    "id": "sheet-view",
+    "cls": "spreadsheet-view"
+  },
+  "sm-sheet-editor-wrap": {
+    "reactKeys": [
+      "__reactInternalInstance$tjpjn4wl6t8",
+      "__reactEventHandlers$tjpjn4wl6t8"
+    ],
+    "tag": "DIV",
+    "id": "",
+    "cls": "sm-sheet-editor-wrap sm-sheet-readonly"
+  },
+  "root": {
+    "reactKeys": [
+      "__reactContainere$tjpjn4wl6t8"
+    ],
+    "tag": "DIV",
+    "id": "root",
+    "cls": ""
+  },
+  "app": "不存在",
+  "_firstFiber": {
+    "fromEl": "sm-sheet-wrapper",
+    "fiberKey": "__reactContainere$tjpjn4wl6t8",
+    "tag": 3,
+    "elementType": "null",
+    "hasChild": true,
+    "hasSibling": false,
+    "hasReturn": false,
+    "hasMemoizedProps": false,
+    "hasMemoizedState": true,
+    "stateNodeType": "object"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "stores": {
+    "keyvaluepairs": {
+      "count": 0,
+      "keys": [],
+      "values": []
+    },
+    "local-forage-detect-blob-support": {
+      "count": 0,
+      "keys": [],
+      "values": []
+    }
+  }
+}

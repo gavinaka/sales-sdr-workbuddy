@@ -1,0 +1,108 @@
+{
+  "attempts": [
+    {
+      "name": "lizard_download",
+      "method": "GET",
+      "url": "/lizard-api/files/473QMXrrL4F7p53w/download?type=xlsx",
+      "status": 403,
+      "contentType": "application/json; charset=utf-8",
+      "contentDisposition": "",
+      "bodyInfo": {
+        "kind": "json",
+        "len": 77,
+        "preview": "{\"requestId\":\"98d73567f847d6fce93d2f53320ea615\",\"error\":\"未知错误\",\"errorCode\":1}"
+      }
+    },
+    {
+      "name": "lizard_download_post",
+      "method": "POST",
+      "url": "/lizard-api/files/473QMXrrL4F7p53w/download",
+      "status": 404,
+      "contentType": "text/plain",
+      "contentDisposition": "",
+      "bodyInfo": {
+        "kind": "text/plain",
+        "len": 18,
+        "preview": "404 page not found"
+      }
+    },
+    {
+      "name": "lizard_export",
+      "method": "POST",
+      "url": "/lizard-api/files/473QMXrrL4F7p53w/export",
+      "status": 404,
+      "contentType": "text/plain; charset=utf-8",
+      "contentDisposition": "",
+      "bodyInfo": {
+        "kind": "text/plain; charset=utf-8",
+        "len": 9,
+        "preview": "Not Found"
+      }
+    },
+    {
+      "name": "lizard_export_v2",
+      "method": "POST",
+      "url": "/lizard-api/files/473QMXrrL4F7p53w/export",
+      "status": 404,
+      "contentType": "text/plain; charset=utf-8",
+      "contentDisposition": "",
+      "bodyInfo": {
+        "kind": "text/plain; charset=utf-8",
+        "len": 9,
+        "preview": "Not Found"
+      }
+    },
+    {
+      "name": "panda_export",
+      "method": "POST",
+      "url": "/panda-api/file/files/473QMXrrL4F7p53w/export",
+      "status": 404,
+      "contentType": "text/plain",
+      "contentDisposition": "",
+      "bodyInfo": {
+        "kind": "text/plain",
+        "len": 18,
+        "preview": "404 page not found"
+      }
+    },
+    {
+      "name": "panda_download",
+      "method": "GET",
+      "url": "/panda-api/file/files/473QMXrrL4F7p53w/download?type=xlsx",
+      "status": 404,
+      "contentType": "text/plain",
+      "contentDisposition": "",
+      "bodyInfo": {
+        "kind": "text/plain",
+        "len": 18,
+        "preview": "404 page not found"
+      }
+    },
+    {
+      "name": "api_download",
+      "method": "GET",
+      "url": "/api/files/473QMXrrL4F7p53w/download?type=xlsx",
+      "status": 404,
+      "contentType": "text/plain; charset=utf-8",
+      "contentDisposition": "",
+      "bodyInfo": {
+        "kind": "text/plain; charset=utf-8",
+        "len": 9,
+        "preview": "Not Found"
+      }
+    },
+    {
+      "name": "api_export",
+      "method": "POST",
+      "url": "/api/files/473QMXrrL4F7p53w/export",
+      "status": 404,
+      "contentType": "text/plain; charset=utf-8",
+      "contentDisposition": "",
+      "bodyInfo": {
+        "kind": "text/plain; charset=utf-8",
+        "len": 9,
+        "preview": "Not Found"
+      }
+    }
+  ]
+}

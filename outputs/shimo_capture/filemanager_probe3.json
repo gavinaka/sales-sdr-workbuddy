@@ -1,0 +1,67 @@
+{
+  "found": true,
+  "entryInfo": [
+    {
+      "tag": "DIV",
+      "cls": "spreadsheet-view",
+      "hasFiber": true,
+      "fiberKey": "__reactInternalInstance$i99r1h31k2"
+    },
+    {
+      "tag": "DIV",
+      "cls": "sm-sheet-wrapper",
+      "hasFiber": true,
+      "fiberKey": "__reactContainere$i99r1h31k2"
+    },
+    {
+      "tag": "DIV",
+      "cls": "sm-sheet-editor-wrap sm-sheet-",
+      "hasFiber": true,
+      "fiberKey": "__reactInternalInstance$i99r1h31k2"
+    },
+    {
+      "tag": "DIV",
+      "cls": "sm-sheet-tab-item active-tab",
+      "hasFiber": true,
+      "fiberKey": "__reactInternalInstance$i99r1h31k2"
+    },
+    {
+      "tag": "DIV",
+      "cls": "",
+      "hasFiber": true,
+      "fiberKey": "__reactContainere$i99r1h31k2"
+    }
+  ],
+  "upSteps": 32,
+  "rootTag": 3,
+  "actualRootTag": 3,
+  "path": "props@f16.children.props.value.coreData.file.contentStorageInstance",
+  "fiberScanned": 17,
+  "objScanned": 154,
+  "fmMethods": [
+    "initContentStorage",
+    "getContent",
+    "subscribeContentChange",
+    "createStorage",
+    "throwErrorIfNoFileDataManager",
+    "getRemoteContent",
+    "createFile",
+    "removeLocalData"
+  ],
+  "fmKeys": [
+    "allowedStorage",
+    "initContentStorage",
+    "getContent",
+    "subscribeContentChange",
+    "createStorage",
+    "throwErrorIfNoFileDataManager",
+    "getRemoteContent",
+    "createFile",
+    "removeLocalData",
+    "config",
+    "me",
+    "file",
+    "checkpoint"
+  ],
+  "fmConstructor": "x"
+}

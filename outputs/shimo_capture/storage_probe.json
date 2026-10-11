@@ -1,0 +1,77 @@
+{
+  "idb": {
+    "databases": [
+      {
+        "name": "SMOBS:METADATA:LO-LOGGER",
+        "version": 1
+      },
+      {
+        "name": "SMOBS:METADATA:LO-TRACKER",
+        "version": 1
+      },
+      {
+        "name": "SMOBS:RECORDS:LO-LOGGER",
+        "version": 1
+      },
+      {
+        "name": "SMOBS:RECORDS:LO-TRACKER",
+        "version": 1
+      },
+      {
+        "name": "desktop2",
+        "version": 2
+      },
+      {
+        "name": "drive_task_v2",
+        "version": 1
+      },
+      {
+        "name": "sm-sheet-snapshot",
+        "version": 2
+      },
+      {
+        "name": "sm-sheet-storage",
+        "version": 2
+      },
+      {
+        "name": "upload:md5",
+        "version": 1
+      }
+    ]
+  },
+  "storage": {
+    "localStorageKeys": [
+      {
+        "key": "file_report_tooltip_shown",
+        "len": 4,
+        "preview": "true"
+      },
+      {
+        "key": "sm-sheet-collab-473QMXrrL4F7p53w",
+        "len": 36,
+        "preview": "5f21656b-101c-4668-ba5e-e099b589e08a"
+      },
+      {
+        "key": "473QMXrrL4F7p53w:sheet",
+        "len": 5,
+        "preview": "dJr6p"
+      },
+      {
+        "key": "content:PRF",
+        "len": 11,
+        "preview": "FPT:content"
+      },
+      {
+        "key": "sm-sheet-collab-473QMXrrL4F7p53w-5f21656b-101c-4668-ba5e-e099b589e08a",
+        "len": 7,
+        "preview": "editing"
+      },
+      {
+        "key": "preferSingleRowMode",
+        "len": 4,
+        "preview": "true"
+      }
+    ],
+    "sessionStorageKeys": []
+  }
+}

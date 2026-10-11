@@ -1,0 +1,4 @@
+{
+  "getContentError": "`fileDataManager` not exists. Ensure initContentStorage first",
+  "getRemoteContentError": "Request failed with status code 404"
+}

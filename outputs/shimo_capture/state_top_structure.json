@@ -1,0 +1,379 @@
+{
+  "_topKeys": [
+    "alphaFeatures",
+    "blueTips",
+    "bulletin",
+    "collaborators",
+    "collabDepts",
+    "created",
+    "deleted",
+    "discussions",
+    "files",
+    "flashMessages",
+    "maintenance",
+    "me",
+    "notifications",
+    "recent",
+    "recentContacts",
+    "settings",
+    "shared",
+    "shortcuts",
+    "starred",
+    "status",
+    "subscriptions",
+    "syncedFiles",
+    "teamMembers",
+    "teams",
+    "templates",
+    "templateLimit",
+    "tree",
+    "unreadShared",
+    "updated",
+    "used",
+    "userGuide",
+    "users",
+    "wechat",
+    "features",
+    "checkpoint",
+    "tags",
+    "preferences"
+  ],
+  "alphaFeatures": {
+    "type": "object",
+    "keys": [],
+    "keyCount": 0
+  },
+  "blueTips": {
+    "type": "object",
+    "keys": [
+      "size",
+      "_root",
+      "__ownerID",
+      "__hash",
+      "__altered"
+    ],
+    "keyCount": 5
+  },
+  "bulletin": {
+    "type": "object",
+    "keys": [
+      "size",
+      "_root",
+      "__ownerID",
+      "__hash",
+      "__altered"
+    ],
+    "keyCount": 5
+  },
+  "collaborators": {
+    "type": "object",
+    "keys": [
+      "size",
+      "_root",
+      "__ownerID",
+      "__hash",
+      "__altered"
+    ],
+    "keyCount": 5
+  },
+  "collabDepts": {
+    "type": "object",
+    "keys": [
+      "size",
+      "_root",
+      "__ownerID",
+      "__hash",
+      "__altered"
+    ],
+    "keyCount": 5
+  },
+  "created": {
+    "type": "object",
+    "keys": [
+      "size",
+      "_root",
+      "__ownerID",
+      "__hash",
+      "__altered"
+    ],
+    "keyCount": 5
+  },
+  "deleted": {
+    "type": "null"
+  },
+  "discussions": {
+    "type": "object",
+    "keys": [
+      "size",
+      "_root",
+      "__ownerID",
+      "__hash",
+      "__altered"
+    ],
+    "keyCount": 5
+  },
+  "files": {
+    "type": "object",
+    "keys": [
+      "size",
+      "_root",
+      "__ownerID",
+      "__hash",
+      "__altered"
+    ],
+    "keyCount": 5
+  },
+  "flashMessages": {
+    "type": "object",
+    "keys": [
+      "size",
+      "_root",
+      "__ownerID",
+      "__hash",
+      "__altered"
+    ],
+    "keyCount": 5
+  },
+  "maintenance": {
+    "type": "object",
+    "keys": [],
+    "keyCount": 0
+  },
+  "me": {
+    "type": "object",
+    "keys": [
+      "_map",
+      "__ownerID"
+    ],
+    "keyCount": 2
+  },
+  "notifications": {
+    "type": "object",
+    "keys": [
+      "size",
+      "_root",
+      "__ownerID",
+      "__hash",
+      "__altered"
+    ],
+    "keyCount": 5
+  },
+  "recent": {
+    "type": "null"
+  },
+  "recentContacts": {
+    "type": "null"
+  },
+  "settings": {
+    "type": "object",
+    "keys": [],
+    "keyCount": 0
+  },
+  "shared": {
+    "type": "object",
+    "keys": [
+      "size",
+      "_root",
+      "__ownerID",
+      "__hash",
+      "__altered"
+    ],
+    "keyCount": 5
+  },
+  "shortcuts": {
+    "type": "object",
+    "keys": [
+      "size",
+      "_origin",
+      "_capacity",
+      "_level",
+      "_root",
+      "_tail",
+      "__ownerID",
+      "__hash",
+      "__altered"
+    ],
+    "keyCount": 9
+  },
+  "starred": {
+    "type": "null"
+  },
+  "status": {
+    "type": "object",
+    "keys": [
+      "_map",
+      "__ownerID"
+    ],
+    "keyCount": 2
+  },
+  "subscriptions": {
+    "type": "object",
+    "keys": [
+      "app_push_comment",
+      "app_push_invitation",
+      "app_push_team",
+      "app_push_mention",
+      "not_send_apn_when_web_online",
+      "comment",
+      "app_push_system",
+      "desktop",
+      "sms"
+    ],
+    "keyCount": 9
+  },
+  "syncedFiles": {
+    "type": "object",
+    "keys": [
+      "size",
+      "_root",
+      "__ownerID",
+      "__hash",
+      "__altered"
+    ],
+    "keyCount": 5
+  },
+  "teamMembers": {
+    "type": "object",
+    "keys": [
+      "size",
+      "_origin",
+      "_capacity",
+      "_level",
+      "_root",
+      "_tail",
+      "__ownerID",
+      "__hash",
+      "__altered"
+    ],
+    "keyCount": 9
+  },
+  "teams": {
+    "type": "object",
+    "keys": [
+      "size",
+      "_root",
+      "__ownerID",
+      "__hash",
+      "__altered"
+    ],
+    "keyCount": 5
+  },
+  "templates": {
+    "type": "object",
+    "keys": [
+      "customTemplates",
+      "publicTemplates",
+      "categories"
+    ],
+    "keyCount": 3
+  },
+  "templateLimit": {
+    "type": "object",
+    "keys": [
+      "limit",
+      "valid"
+    ],
+    "keyCount": 2
+  },
+  "tree": {
+    "type": "object",
+    "keys": [
+      "size",
+      "_root",
+      "__ownerID",
+      "__hash",
+      "__altered"
+    ],
+    "keyCount": 5
+  },
+  "unreadShared": {
+    "type": "null"
+  },
+  "updated": {
+    "type": "object",
+    "keys": [
+      "size",
+      "_root",
+      "__ownerID",
+      "__hash",
+      "__altered"
+    ],
+    "keyCount": 5
+  },
+  "used": {
+    "type": "object",
+    "keys": [
+      "size",
+      "_root",
+      "__ownerID",
+      "__hash",
+      "__altered"
+    ],
+    "keyCount": 5
+  },
+  "userGuide": {
+    "type": "object",
+    "keys": [
+      "size",
+      "_root",
+      "__ownerID",
+      "__hash",
+      "__altered"
+    ],
+    "keyCount": 5
+  },
+  "users": {
+    "type": "object",
+    "keys": [
+      "size",
+      "_root",
+      "__ownerID",
+      "__hash",
+      "__altered"
+    ],
+    "keyCount": 5
+  },
+  "wechat": {
+    "type": "object",
+    "keys": [],
+    "keyCount": 0
+  },
+  "features": {
+    "type": "object",
+    "keys": [
+      "loaded",
+      "data"
+    ],
+    "keyCount": 2
+  },
+  "checkpoint": {
+    "type": "object",
+    "keys": [
+      "loaded",
+      "data"
+    ],
+    "keyCount": 2
+  },
+  "tags": {
+    "type": "object",
+    "keys": [
+      "user",
+      "team",
+      "teamIsMultiple",
+      "userMaxPerFile"
+    ],
+    "keyCount": 4
+  },
+  "preferences": {
+    "type": "object",
+    "keys": [
+      "clickFileArea",
+      "createFileByTemplate",
+      "homePage",
+      "isShowIconOnly",
+      "openFileLocation",
+      "personalizedADRecommandation"
+    ],
+    "keyCount": 6
+  }
+}

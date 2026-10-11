@@ -1,0 +1,110 @@
+{
+  "scanned": 21,
+  "allElements": [
+    {
+      "depth": 1,
+      "tag": 1,
+      "et": "z",
+      "hasState": true,
+      "hasProps": true
+    },
+    {
+      "depth": 3,
+      "tag": 0,
+      "et": "r",
+      "hasState": false,
+      "hasProps": true
+    },
+    {
+      "depth": 4,
+      "tag": 1,
+      "et": "s",
+      "hasState": false,
+      "hasProps": true
+    },
+    {
+      "depth": 5,
+      "tag": 1,
+      "et": "Connect(Component)",
+      "hasState": true,
+      "hasProps": true
+    },
+    {
+      "depth": 7,
+      "tag": 1,
+      "et": "SideEffect(DocumentTitle)",
+      "hasState": false,
+      "hasProps": true
+    },
+    {
+      "depth": 8,
+      "tag": 1,
+      "et": "DocumentTitle",
+      "hasState": false,
+      "hasProps": true
+    },
+    {
+      "depth": 9,
+      "tag": 1,
+      "et": "n",
+      "hasState": true,
+      "hasProps": true
+    },
+    {
+      "depth": 12,
+      "tag": 1,
+      "et": "n",
+      "hasState": false,
+      "hasProps": true
+    },
+    {
+      "depth": 13,
+      "tag": 9,
+      "et": "Router",
+      "hasState": false,
+      "hasProps": true
+    },
+    {
+      "depth": 14,
+      "tag": 1,
+      "et": "n",
+      "hasState": false,
+      "hasProps": true
+    },
+    {
+      "depth": 15,
+      "tag": 9,
+      "et": "Router",
+      "hasState": false,
+      "hasProps": true
+    },
+    {
+      "depth": 18,
+      "tag": 1,
+      "et": "gt",
+      "hasState": false,
+      "hasProps": true
+    },
+    {
+      "depth": 13,
+      "tag": 1,
+      "et": "n",
+      "hasState": false,
+      "hasProps": true
+    },
+    {
+      "depth": 14,
+      "tag": 9,
+      "et": "Router",
+      "hasState": false,
+      "hasProps": true
+    }
+  ],
+  "richStates": [],
+  "entry": {
+    "tag": "DIV",
+    "cls": "",
+    "key": "__reactContainere$tjpjn4wl6t8"
+  },
+  "upSteps": 0
+}

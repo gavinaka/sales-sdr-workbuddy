@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% block title %}SDR客户分级系统{% endblock %}</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="/">SDR 客户分级系统</a>
+    <nav class="nav">
+      <a href="/" class="{% if request.path == '/' %}active{% endif %}">总览看板</a>
+      <a href="/customers" class="{% if request.path.startswith('/customer') %}active{% endif %}">客户列表</a>
+    </nav>
+    <div class="bd-select-wrap">
+      <label for="bdSelect">当前BD：</label>
+      <select id="bdSelect">
+        <option value="">请选择BD</option>
+        {% for name in bd_names %}
+        <option value="{{ name }}">{{ name }}</option>
+        {% endfor %}
+      </select>
+    </div>
+  </div>
+</header>
+<main class="container">
+  {% block content %}{% endblock %}
+</main>
+<footer class="footer">SDR客户智能分级系统 · 成都分部服务池 · 纯信任制（无密码登录）</footer>
+<script>
+// BD选择存sessionStorage
+(function(){
+  var sel = document.getElementById('bdSelect');
+  var saved = sessionStorage.getItem('sdr_bd_name');
+  if (saved) {
+    for (var i=0;i<sel.options.length;i++){
+      if (sel.options[i].value === saved) { sel.selectedIndex = i; break; }
+    }
+  }
+  sel.addEventListener('change', function(){
+    sessionStorage.setItem('sdr_bd_name', this.value);
+  });
+})();
+// 暴露给子页面用
+function getBDName(){
+  var v = sessionStorage.getItem('sdr_bd_name');
+  return v || '';
+}
+</script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

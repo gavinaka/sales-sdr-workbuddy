@@ -1,0 +1,68 @@
+{
+  "sm-sheet-snapshot": {
+    "stores": [
+      "keyvaluepairs",
+      "local-forage-detect-blob-support"
+    ],
+    "version": 2,
+    "storeInfo": {
+      "keyvaluepairs": {
+        "count": 2,
+        "keySamples": [
+          "sm-sheet-snapshot-473QMXrrL4F7p53w-dJr6p",
+          "sm-sheet-snapshot-keys"
+        ]
+      },
+      "local-forage-detect-blob-support": {
+        "count": 0,
+        "keySamples": []
+      }
+    }
+  },
+  "sm-sheet-storage": {
+    "stores": [
+      "keyvaluepairs",
+      "local-forage-detect-blob-support"
+    ],
+    "version": 2,
+    "storeInfo": {
+      "keyvaluepairs": {
+        "count": 0,
+        "keySamples": []
+      },
+      "local-forage-detect-blob-support": {
+        "count": 0,
+        "keySamples": []
+      }
+    }
+  },
+  "desktop2": {
+    "stores": [
+      "keyvaluepairs",
+      "local-forage-detect-blob-support"
+    ],
+    "version": 2,
+    "storeInfo": {
+      "keyvaluepairs": {
+        "count": 0,
+        "keySamples": []
+      },
+      "local-forage-detect-blob-support": {
+        "count": 0,
+        "keySamples": []
+      }
+    }
+  },
+  "drive_task_v2": {
+    "stores": [
+      "kv"
+    ],
+    "version": 1,
+    "storeInfo": {
+      "kv": {
+        "count": 0,
+        "keySamples": []
+      }
+    }
+  }
+}

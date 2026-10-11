@@ -1,0 +1,38 @@
+{
+  "export_xlsx_post": {
+    "status": 404,
+    "ct": "text/plain; charset=utf-8",
+    "body": "Not Found",
+    "bodyLen": 9
+  },
+  "export_xlsx_post2": {
+    "status": 404,
+    "ct": "text/plain; charset=utf-8",
+    "body": "Not Found",
+    "bodyLen": 9
+  },
+  "download_xlsx": {
+    "status": 403,
+    "ct": "application/json; charset=utf-8",
+    "body": "{\"requestId\":\"6802856a0cc466c618fbdab033d7d8c7\",\"error\":\"未知错误\",\"errorCode\":1}",
+    "bodyLen": 77
+  },
+  "files_meta": {
+    "status": 200,
+    "ct": "application/json; charset=utf-8",
+    "body": "{\"id\":5167403040,\"guid\":\"473QMXrrL4F7p53w\",\"name\":\"销售部线索跟进6.30 787\",\"isFromSVC\":true,\"isFolder\":false,\"collaboratorCount\":9,\"departmentCollaboratorCount\":0,\"isSpace\":false,\"isLocked\":false,\"isShortcut\":false,\"isLegacy\":false,\"hasChildren\":false,\"isFileAdmin\":false,\"isCloudFile\":false,\"isDesktop\":false,\"url\":\"/sheets/473QMXrrL4F7p53w\",\"isDelete\":0,\"namePinyin\":\"\",\"parentId\":5186405004,\"password\":\"\",\"passwordProtected\":false,\"shareMode\":\"editable\",\"teamId\":231499,\"userId\":16163971,\"deletedBy\":null,\"updatedBy\":99399061,\"fileSize\":35115551,\"sortName\":[\"xiāo\",\"shòu\",\"bù\",\"xiàn\",\"suǒ\",\"gēn\",\"jìn\",6,\".\",30,\" \",787],\"starred\":false,\"tags\":[],\"marked\":false,\"shareModeExpireDuration\":0,\"parentRole\":\"inherited\",\"is_delete\":0,\"user_id\":16163971,\"deleted_by\":null,\"updated_by\":99399061,\"team_id\":231499,\"parent_id\":5186405004,\"name_pinyin\":\"\",\"password_protected\":false,\"share_mode\":\"editable\",\"space_guid\":\"XwV3VVllM8yTX3y1\",\"user\":{\"id\":16163971,\"name\":\"何如美\",\"avatar\":\"https://uploader.shimo.im/f/q7aVot2SdRrtWFre.jpg!avatar\",\"email\":\"herumei@qinsilk.com\",\"accountMetadata\":{\"isExpired\":false,\"isDingtalk\":false,\"isWework\":false,\"isEnterprise\":true,\"isFreeEnterprise\":false,\"expiredAt\":{\"seconds\":1788834866},\"isTrial\":false,\"isPersonalPremium\":false,\"isEnterprisePremium\":true,\"isEnterpriseLight\":false,\"startedAt\":{\"seconds\":1757298865,\"nanos\":610000000},\"editionId\":2,\"lastMembershipExpiredAt\":{\"seconds\":1788834866},\"lastMembershipEditionId\":2}},\"updatedUser\":{\"id\":99399061,\"name\":\"陈若兰\",\"avatar\":\"https://as.smgv.cn/static/unmd5/invited.png\",\"email\":\"chenruolan@qinsilk.com\"},\"Permissions\":[{\"id\":null,\"owner\":false}],\"permissions\":{\"readable\":true,\"editable\":false,\"commentable\":false,\"manageable\":false,\"exitable\":false,\"exportable\":false,\"collaboratorManageable\":false,\"adminManageable\":false,\"outsiderAddable\":false,\"childFileCreatable\":false,\"shareModeManageable\":false,\"teamShareModeManageable\":false,\"copyable\":false,\"lockable\":false,\"unlockable\":false,\"removable\":false,\"downloadable\":false,\"canDuplicate\":false,\"canUncompress\":false,\"canPrint\":false,\"canSaveAsTemplate\":false,\"canApplyPermission\":true,\"canRename\":false,\"canModifyAdvancedPermission\":false,\"canCustomizeAdvancedPermission\":false,\"moveable\":false,\"sheetLockable\":false,\"passwordShareable\":false,\"fileAuthSetable\":false},\"permissionsAndReasons\":{\"canAddOutsider\":{\"value\":false,\"reason\":\"NOT_A_EDITOR\"},\"canChangeShareMode\":{\"value\":false,\"reason\":\"UNKNOWN\"},\"canChangeTeamShareMode\":{\"value\":false,\"reason\":\"OUTSIDER\"},\"canComment\":{\"value\":false,\"reason\":\"UNKNOWN\"},\"canCopy\":{\"value\":false,\"reason\":\"TEAM_SETTING\"},\"canCreateChildFile\":{\"value\":false,\"reason\":\"UNKNOWN\"},\"canDownload\":{\"value\":false,\"reason\":\"NOT_A_DRIVE_FILE\"},\"canEdit\":{\"value\":false,\"reason\":\"UNKNOWN\"},\"canExit\":{\"value\":false,\"reason\":\"NOT_A_PERSONAL_COLLABORATOR\"},\"canExport\":{\"value\":false,\"reason\":\"TEAM_SETTING\"},\"canLock\":{\"value\":false,\"reason\":\"NO_BASIC_PERMISSION\"},\"canManage\":{\"value\":false,\"reason\":\"NO_BASIC_PERMISSION\"},\"canManageAdm",
+    "bodyLen": 4498
+  },
+  "sheets_list": {
+    "status": 405,
+    "ct": "text/plain; charset=utf-8",
+    "body": "Method Not Allowed",
+    "bodyLen": 18
+  },
+  "api_files": {
+    "status": 200,
+    "ct": "application/json; charset=utf-8",
+    "body": "{\"id\":5167403040,\"guid\":\"473QMXrrL4F7p53w\",\"name\":\"销售部线索跟进6.30 787\",\"isFromSVC\":true,\"isFolder\":false,\"collaboratorCount\":9,\"departmentCollaboratorCount\":0,\"isSpace\":false,\"isLocked\":false,\"isShortcut\":false,\"isLegacy\":false,\"hasChildren\":false,\"isFileAdmin\":false,\"isCloudFile\":false,\"isDesktop\":false,\"url\":\"/sheets/473QMXrrL4F7p53w\",\"isDelete\":0,\"namePinyin\":\"\",\"parentId\":5186405004,\"password\":\"\",\"passwordProtected\":false,\"shareMode\":\"editable\",\"teamId\":231499,\"userId\":16163971,\"deletedBy\":null,\"updatedBy\":99399061,\"fileSize\":35115551,\"sortName\":[\"xiāo\",\"shòu\",\"bù\",\"xiàn\",\"suǒ\",\"gēn\",\"jìn\",6,\".\",30,\" \",787],\"starred\":false,\"tags\":[],\"marked\":false,\"shareModeExpireDuration\":0,\"parentRole\":\"inherited\",\"is_delete\":0,\"user_id\":16163971,\"deleted_by\":null,\"updated_by\":99399061,\"team_id\":231499,\"parent_id\":5186405004,\"name_pinyin\":\"\",\"password_protected\":false,\"share_mode\":\"editable\",\"space_guid\":\"XwV3VVllM8yTX3y1\",\"user\":{\"id\":16163971,\"name\":\"何如美\",\"avatar\":\"https://uploader.shimo.im/f/q7aVot2SdRrtWFre.jpg!avatar\",\"email\":\"herumei@qinsilk.com\",\"accountMetadata\":{\"isExpired\":false,\"isDingtalk\":false,\"isWework\":false,\"isEnterprise\":true,\"isFreeEnterprise\":false,\"expiredAt\":{\"seconds\":1788834866},\"isTrial\":false,\"isPersonalPremium\":false,\"isEnterprisePremium\":true,\"isEnterpriseLight\":false,\"startedAt\":{\"seconds\":1757298865,\"nanos\":610000000},\"editionId\":2,\"lastMembershipExpiredAt\":{\"seconds\":1788834866},\"lastMembershipEditionId\":2}},\"updatedUser\":{\"id\":99399061,\"name\":\"陈若兰\",\"avatar\":\"https://as.smgv.cn/static/unmd5/invited.png\",\"email\":\"chenruolan@qinsilk.com\"},\"Permissions\":[{\"id\":null,\"owner\":false}],\"permissions\":{\"readable\":true,\"editable\":false,\"commentable\":false,\"manageable\":false,\"exitable\":false,\"exportable\":false,\"collaboratorManageable\":false,\"adminManageable\":false,\"outsiderAddable\":false,\"childFileCreatable\":false,\"shareModeManageable\":false,\"teamShareModeManageable\":false,\"copyable\":false,\"lockable\":false,\"unlockable\":false,\"removable\":false,\"downloadable\":false,\"canDuplicate\":false,\"canUncompress\":false,\"canPrint\":false,\"canSaveAsTemplate\":false,\"canApplyPermission\":true,\"canRename\":false,\"canModifyAdvancedPermission\":false,\"canCustomizeAdvancedPermission\":false,\"moveable\":false,\"sheetLockable\":false,\"passwordShareable\":false,\"fileAuthSetable\":false},\"permissionsAndReasons\":{\"canAddOutsider\":{\"value\":false,\"reason\":\"NOT_A_EDITOR\"},\"canChangeShareMode\":{\"value\":false,\"reason\":\"UNKNOWN\"},\"canChangeTeamShareMode\":{\"value\":false,\"reason\":\"OUTSIDER\"},\"canComment\":{\"value\":false,\"reason\":\"UNKNOWN\"},\"canCopy\":{\"value\":false,\"reason\":\"TEAM_SETTING\"},\"canCreateChildFile\":{\"value\":false,\"reason\":\"UNKNOWN\"},\"canDownload\":{\"value\":false,\"reason\":\"NOT_A_DRIVE_FILE\"},\"canEdit\":{\"value\":false,\"reason\":\"UNKNOWN\"},\"canExit\":{\"value\":false,\"reason\":\"NOT_A_PERSONAL_COLLABORATOR\"},\"canExport\":{\"value\":false,\"reason\":\"TEAM_SETTING\"},\"canLock\":{\"value\":false,\"reason\":\"NO_BASIC_PERMISSION\"},\"canManage\":{\"value\":false,\"reason\":\"NO_BASIC_PERMISSION\"},\"canManageAdm",
+    "bodyLen": 4498
+  }
+}

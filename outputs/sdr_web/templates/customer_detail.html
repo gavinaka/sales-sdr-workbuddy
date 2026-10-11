@@ -1,0 +1,206 @@
+{% extends 'base.html' %}
+{% block title %}{{ c.name }} - 客户详情{% endblock %}
+{% block content %}
+<a class="back-link" href="/customers">← 返回列表</a>
+
+<div class="detail-header row-{{ c.sub_grade }}">
+  <div class="detail-title">
+    <h1>{{ c.name or '-' }}</h1>
+    <span class="grade-badge grade-{{ c.sub_grade }}">{{ c.sub_grade }}</span>
+    <span class="opp-tag">{{ c.opportunity_type or '' }}</span>
+  </div>
+  <div class="detail-meta">
+    <span>联系人：{{ c.contact or '-' }}</span>
+    <span>CID：{{ c.cid }}</span>
+    <span>行业：{{ c.industry }}</span>
+    <span>业务：{{ c.biz_type }}</span>
+    <span>规模：{{ c.store_count }}店/{{ c.sub_accounts }}账号</span>
+    <span>活跃率：{{ "%.1f"|format(c.active_rate) }}%</span>
+    <span>付费：{% if c.pay_amount > 0 %}¥{{ "%.0f"|format(c.pay_amount) }}{% else %}未付费{% endif %}</span>
+  </div>
+</div>
+
+<div class="detail-grid">
+  <div class="detail-card">
+    <h3>6维评分</h3>
+    <div class="score-grid">
+      <div class="score-block"><div class="score-label">D1 回访紧迫</div><div class="score-val s{{ c.d1 }}">{{ c.d1 }}</div><div class="score-desc">无回访=3/>365天=5</div></div>
+      <div class="score-block"><div class="score-label">D2 行业</div><div class="score-val s{{ c.d2 }}">{{ c.d2 }}</div><div class="score-desc">核心5/强4/通用3</div></div>
+      <div class="score-block"><div class="score-label">D3 业务</div><div class="score-val s{{ c.d3 }}">{{ c.d3 }}</div><div class="score-desc">批零5/批3/零2</div></div>
+      <div class="score-block"><div class="score-label">D4 规模</div><div class="score-val s{{ c.d4 }}">{{ c.d4 }}</div><div class="score-desc">≥6=5/≥3=4</div></div>
+      <div class="score-block"><div class="score-label">D5 活跃</div><div class="score-val s{{ c.d5 }}">{{ c.d5 }}</div><div class="score-desc">≥80=5/≥50=3</div></div>
+      <div class="score-block"><div class="score-label">D6 付费</div><div class="score-val s{{ c.d6 }}">{{ c.d6 }}</div><div class="score-desc">≥3000=5/≥1000=4</div></div>
+    </div>
+    <div class="score-total">
+      <span>总分：<b>{{ c.score }}</b></span>
+      <span>机会分：<b>{{ c.opportunity_score }}</b></span>
+    </div>
+    <div class="sub-reason">细分原因：{{ c.sub_reason or '-' }}</div>
+  </div>
+
+  <div class="detail-card">
+    <h3>痛点分析</h3>
+    <div class="painpoints">{{ c.painpoints or '无' }}</div>
+  </div>
+
+  <div class="detail-card">
+    <h3>沟通话术 <span class="card-hint">可直接念</span></h3>
+    <div class="script-text">{{ c.script or '无' }}</div>
+  </div>
+
+  <div class="detail-card">
+    <h3>建议动作</h3>
+    <div class="action-text">{{ c.action or '无' }}</div>
+  </div>
+
+  <div class="detail-card">
+    <h3>服务到期详情</h3>
+    {% if services %}
+    <table class="svc-table">
+      <thead><tr><th>服务名称</th><th>到期日期</th><th>剩余天数</th></tr></thead>
+      <tbody>
+        {% for s in services %}
+        <tr class="{% if s.days_to_expire is not none and s.days_to_expire >= 0 and s.days_to_expire <= 7 %}svc-urgent{% elif s.days_to_expire is not none and s.days_to_expire >= 0 and s.days_to_expire <= 30 %}svc-warn{% endif %}">
+          <td>{{ s.name }}</td>
+          <td>{{ s.end_date or '-' }}</td>
+          <td>{% if s.days_to_expire is none %}永久{% elif s.days_to_expire < 0 %}已过期{{ -s.days_to_expire }}天{% else %}{{ s.days_to_expire }}天{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% if expiring %}
+    <div class="expiring-note">即将到期服务：{{ expiring|join('、') }}</div>
+    {% endif %}
+    {% else %}
+    <div class="empty">无服务记录</div>
+    {% endif %}
+  </div>
+</div>
+
+<!-- 回访填写表单 -->
+<div class="visit-form-section" id="visit-form">
+  <h2>填写回访记录</h2>
+  <form id="visitForm">
+    <div class="form-row">
+      <label>当前BD</label>
+      <input type="text" id="bdNameInput" readonly placeholder="请先在顶部选择BD">
+    </div>
+    <div class="form-row">
+      <label>回访结果 <span class="req">*</span></label>
+      <select id="resultInput" required>
+        <option value="">请选择</option>
+        {% for r in visit_results %}<option value="{{ r }}">{{ r }}</option>{% endfor %}
+      </select>
+    </div>
+    <div class="form-row">
+      <label>备注</label>
+      <textarea id="noteInput" rows="3" placeholder="沟通要点、客户反馈等"></textarea>
+    </div>
+    <div class="form-row">
+      <label>下次跟进日期</label>
+      <input type="date" id="nextDateInput">
+    </div>
+    <div class="form-row">
+      <label>是否成交</label>
+      <div class="radio-group">
+        <label><input type="radio" name="deal" value="否" checked> 否</label>
+        <label><input type="radio" name="deal" value="是"> 是</label>
+      </div>
+    </div>
+    <div class="form-row">
+      <button type="submit" class="btn-primary">提交回访</button>
+      <span id="visitMsg" class="form-msg"></span>
+    </div>
+  </form>
+</div>
+
+<!-- 回访历史 -->
+<div class="visit-history-section">
+  <h2>回访历史（{{ visits|length }}条）</h2>
+  {% if visits %}
+  <table class="visit-table">
+    <thead><tr><th>时间</th><th>BD</th><th>结果</th><th>备注</th><th>下次跟进</th><th>成交</th></tr></thead>
+    <tbody>
+      {% for v in visits %}
+      <tr>
+        <td class="td-time">{{ v.created_at }}</td>
+        <td>{{ v.bd_name }}</td>
+        <td><span class="result-tag">{{ v.result }}</span></td>
+        <td class="td-note">{{ v.note or '-' }}</td>
+        <td>{{ v.next_date or '-' }}</td>
+        <td>{% if v.deal == '是' %}<span class="deal-yes">是</span>{% else %}否{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <div class="empty">暂无回访记录</div>
+  {% endif %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function(){
+  var cid = {{ c.cid|tojson }};
+
+  // 回填BD名字
+  var bdName = getBDName();
+  var bdInput = document.getElementById('bdNameInput');
+  if (bdName) { bdInput.value = bdName; }
+  else {
+    bdInput.value = '';
+    bdInput.placeholder = '请先在顶部选择BD';
+  }
+
+  var form = document.getElementById('visitForm');
+  var msg = document.getElementById('visitMsg');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    if (!bdName) {
+      msg.textContent = '请先在顶部选择BD';
+      msg.className = 'form-msg error';
+      return;
+    }
+    var result = document.getElementById('resultInput').value;
+    if (!result) {
+      msg.textContent = '请选择回访结果';
+      msg.className = 'form-msg error';
+      return;
+    }
+    var note = document.getElementById('noteInput').value;
+    var nextDate = document.getElementById('nextDateInput').value;
+    var deal = document.querySelector('input[name=deal]:checked').value;
+
+    msg.textContent = '提交中...';
+    msg.className = 'form-msg';
+    fetch('/api/visit', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        cid: String(cid), bd_name: bdName, result: result,
+        note: note, next_date: nextDate, deal: deal
+      })
+    }).then(function(r){return r.json();}).then(function(d){
+      if (d.ok) {
+        msg.className = 'form-msg success';
+        if (d.grade_changed) {
+          msg.textContent = '已提交！分级已自动调整：' + d.old_grade + ' → ' + d.new_grade + '（刷新页面查看）';
+        } else {
+          msg.textContent = '已提交！分级保持 ' + d.new_grade;
+        }
+        form.reset();
+        bdInput.value = bdName;
+        setTimeout(function(){ location.reload(); }, 1800);
+      } else {
+        msg.textContent = '提交失败：' + d.msg;
+        msg.className = 'form-msg error';
+      }
+    }).catch(function(err){
+      msg.textContent = '网络错误：' + err;
+      msg.className = 'form-msg error';
+    });
+  });
+})();
+</script>
+{% endblock %}

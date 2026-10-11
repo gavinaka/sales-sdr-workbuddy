@@ -1,0 +1,4 @@
+{
+  "initNoArgError": "Cannot read properties of undefined (reading '0')",
+  "getContentError": "`fileDataManager` not exists. Ensure initContentStorage first"
+}

@@ -1,0 +1,330 @@
+{
+  "[class*=\"sheet\"][class*=\"tab\"]": [
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-buttons"
+    },
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-btn sm-sheet-list-btn"
+    },
+    {
+      "text": "小红书1组线索表\n线索跟进表\n线索二次流转表\n线索三次流转表",
+      "cls": "sm-sheet-tab-container"
+    },
+    {
+      "text": "小红书1组线索表\n线索跟进表\n线索二次流转表\n线索三次流转表",
+      "cls": "sm-sheet-tab-list-container"
+    },
+    {
+      "text": "小红书1组线索表\n线索跟进表\n线索二次流转表\n线索三次流转表",
+      "cls": "sm-sheet-tab-list scrollable-tab-list"
+    },
+    {
+      "text": "小红书1组线索表",
+      "cls": "sm-sheet-tab-item active-tab"
+    },
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-divider"
+    },
+    {
+      "text": "小红书1组线索表",
+      "cls": "sm-sheet-tab-content"
+    },
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-icon-wrapper"
+    },
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-item-icon sm-sheet-tab-clickable-icon"
+    },
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-lock-icon sm-sheet-tab-lock-icon"
+    },
+    {
+      "text": "小红书1组线索表",
+      "cls": "sm-sheet-tab-name"
+    },
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-color"
+    },
+    {
+      "text": "线索跟进表",
+      "cls": "sm-sheet-tab-item"
+    },
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-divider"
+    },
+    {
+      "text": "线索跟进表",
+      "cls": "sm-sheet-tab-content"
+    },
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-icon-wrapper"
+    },
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-item-icon sm-sheet-tab-clickable-icon"
+    },
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-lock-icon sm-sheet-tab-lock-icon"
+    },
+    {
+      "text": "线索跟进表",
+      "cls": "sm-sheet-tab-name"
+    }
+  ],
+  "[class*=\"sheet-tab\"]": [
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-buttons"
+    },
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-btn sm-sheet-list-btn"
+    },
+    {
+      "text": "小红书1组线索表\n线索跟进表\n线索二次流转表\n线索三次流转表",
+      "cls": "sm-sheet-tab-container"
+    },
+    {
+      "text": "小红书1组线索表\n线索跟进表\n线索二次流转表\n线索三次流转表",
+      "cls": "sm-sheet-tab-list-container"
+    },
+    {
+      "text": "小红书1组线索表\n线索跟进表\n线索二次流转表\n线索三次流转表",
+      "cls": "sm-sheet-tab-list scrollable-tab-list"
+    },
+    {
+      "text": "小红书1组线索表",
+      "cls": "sm-sheet-tab-item active-tab"
+    },
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-divider"
+    },
+    {
+      "text": "小红书1组线索表",
+      "cls": "sm-sheet-tab-content"
+    },
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-icon-wrapper"
+    },
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-item-icon sm-sheet-tab-clickable-icon"
+    },
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-lock-icon sm-sheet-tab-lock-icon"
+    },
+    {
+      "text": "小红书1组线索表",
+      "cls": "sm-sheet-tab-name"
+    },
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-color"
+    },
+    {
+      "text": "线索跟进表",
+      "cls": "sm-sheet-tab-item"
+    },
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-divider"
+    },
+    {
+      "text": "线索跟进表",
+      "cls": "sm-sheet-tab-content"
+    },
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-icon-wrapper"
+    },
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-item-icon sm-sheet-tab-clickable-icon"
+    },
+    {
+      "text": "",
+      "cls": "sm-sheet-tab-lock-icon sm-sheet-tab-lock-icon"
+    },
+    {
+      "text": "线索跟进表",
+      "cls": "sm-sheet-tab-name"
+    }
+  ],
+  "span[class*=\"tab\"]": [
+    {
+      "text": "独立视图",
+      "cls": "tab-menu-r-text"
+    },
+    {
+      "text": "",
+      "cls": "tab-menu-r-arrow"
+    },
+    {
+      "text": "关注选区",
+      "cls": "tab-menu-r-text"
+    },
+    {
+      "text": "",
+      "cls": "tab-menu-r-arrow"
+    },
+    {
+      "text": "编辑",
+      "cls": "tabMenuHead"
+    },
+    {
+      "text": "插入",
+      "cls": "tabMenuHead"
+    },
+    {
+      "text": "格式",
+      "cls": "tabMenuHead"
+    },
+    {
+      "text": "公式",
+      "cls": "tabMenuHead"
+    },
+    {
+      "text": "数据",
+      "cls": "tabMenuHead"
+    },
+    {
+      "text": "查看",
+      "cls": "tabMenuHead"
+    },
+    {
+      "text": "表单",
+      "cls": "tabMenuHead"
+    },
+    {
+      "text": "工具",
+      "cls": "tabMenuHead"
+    },
+    {
+      "text": "帮助",
+      "cls": "tabMenuHead"
+    }
+  ],
+  "_bottomSheetTexts": [
+    {
+      "text": "小红书1组线索表",
+      "tag": "DIV",
+      "cls": "sm-sheet-tab-name",
+      "rect": {
+        "x": 85,
+        "y": 864
+      }
+    },
+    {
+      "text": "线索二次流转表",
+      "tag": "DIV",
+      "cls": "sm-sheet-tab-name",
+      "rect": {
+        "x": 334,
+        "y": 864
+      }
+    },
+    {
+      "text": "线索三次流转表",
+      "tag": "DIV",
+      "cls": "sm-sheet-tab-name",
+      "rect": {
+        "x": 443,
+        "y": 864
+      }
+    },
+    {
+      "text": "顾问转化率",
+      "tag": "DIV",
+      "cls": "sm-sheet-tab-name",
+      "rect": {
+        "x": 576,
+        "y": 864
+      }
+    },
+    {
+      "text": "部门转化率",
+      "tag": "DIV",
+      "cls": "sm-sheet-tab-name",
+      "rect": {
+        "x": 685,
+        "y": 864
+      }
+    },
+    {
+      "text": "文案",
+      "tag": "DIV",
+      "cls": "sm-sheet-tab-name",
+      "rect": {
+        "x": 794,
+        "y": 864
+      }
+    },
+    {
+      "text": "渠道转化率",
+      "tag": "DIV",
+      "cls": "sm-sheet-tab-name",
+      "rect": {
+        "x": 867,
+        "y": 864
+      }
+    },
+    {
+      "text": "销售部透视表",
+      "tag": "DIV",
+      "cls": "sm-sheet-tab-name",
+      "rect": {
+        "x": 952,
+        "y": 864
+      }
+    },
+    {
+      "text": "成交数据表",
+      "tag": "DIV",
+      "cls": "sm-sheet-tab-name",
+      "rect": {
+        "x": 1073,
+        "y": 864
+      }
+    },
+    {
+      "text": "小红书成交数据",
+      "tag": "DIV",
+      "cls": "sm-sheet-tab-name",
+      "rect": {
+        "x": 1182,
+        "y": 864
+      }
+    },
+    {
+      "text": "小红书转化率",
+      "tag": "DIV",
+      "cls": "sm-sheet-tab-name",
+      "rect": {
+        "x": 1315,
+        "y": 864
+      }
+    },
+    {
+      "text": "工作表17",
+      "tag": "DIV",
+      "cls": "sm-sheet-tab-name",
+      "rect": {
+        "x": 1412,
+        "y": 864
+      }
+    }
+  ]
+}

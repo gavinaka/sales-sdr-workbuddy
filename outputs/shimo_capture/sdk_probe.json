@@ -1,0 +1,46 @@
+{
+  "@shimo/editor-sdk-sheet": {
+    "type": "object",
+    "keys": [
+      "createSheetSDK"
+    ],
+    "methods": [
+      "createSheetSDK"
+    ]
+  },
+  "shimo": {
+    "type": "object",
+    "keys": [
+      "lizardInjecor",
+      "history",
+      "store",
+      "emitter",
+      "socket"
+    ],
+    "methods": []
+  },
+  "SHIMO_APM": {
+    "type": "object",
+    "keys": [
+      "getAPM",
+      "apmUtils"
+    ],
+    "methods": [
+      "getAPM"
+    ]
+  },
+  "_SHIMO_BRAODCAST_": {
+    "type": "object",
+    "keys": [
+      "attachFunctionList",
+      "notifyCache"
+    ],
+    "methods": []
+  },
+  "__LIZARD_CONFIG_HOST__": {
+    "type": "string",
+    "keys": null,
+    "methods": null
+  },
+  "_vueElsWithData": []
+}

@@ -1,0 +1,1107 @@
+{
+  "scanned": 23,
+  "dataModels": [
+    {
+      "path": "stateNode@(d0).current.child.lastEffect.pendingProps",
+      "matchedKeys": [
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "getRemoteContent"
+      ],
+      "allKeys": [
+        "guid",
+        "allowedStorage",
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "createStorage",
+        "throwErrorIfNoFileDataManager",
+        "getRemoteContent",
+        "createFile",
+        "removeLocalData",
+        "config",
+        "me",
+        "file",
+        "checkpoint",
+        "sheetId",
+        "sos2User",
+        "sos2File",
+        "team",
+        "alphaFeatures",
+        "online",
+        "featuresState",
+        "dispatch",
+        "userGuidePanelVisible",
+        "userGuidePanelActiveKey",
+        "changeUserGuidePanelVisible",
+        "changeUserGuidePanelActiveKey"
+      ],
+      "sizeEstimate": 301,
+      "samples": [
+        {
+          "k": "initContentStorage",
+          "type": "function",
+          "value": "(e,t={},a=D)=>M(this,void 0,void 0,(function*(){!t.collabVersion||t.editorVersio"
+        },
+        {
+          "k": "getContent",
+          "type": "function",
+          "value": "e=>M(this,void 0,void 0,(function*(){this.throwErrorIfNoFileDataManager();try{co"
+        },
+        {
+          "k": "subscribeContentChange",
+          "type": "function",
+          "value": "(e,t)=>(this.throwErrorIfNoFileDataManager(),this.fileDataManager.subscribeConte"
+        }
+      ]
+    },
+    {
+      "path": "stateNode@(d0).current.child.lastEffect.memoizedProps",
+      "matchedKeys": [
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "getRemoteContent"
+      ],
+      "allKeys": [
+        "guid",
+        "allowedStorage",
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "createStorage",
+        "throwErrorIfNoFileDataManager",
+        "getRemoteContent",
+        "createFile",
+        "removeLocalData",
+        "config",
+        "me",
+        "file",
+        "checkpoint",
+        "sheetId",
+        "sos2User",
+        "sos2File",
+        "team",
+        "alphaFeatures",
+        "online",
+        "featuresState",
+        "dispatch",
+        "userGuidePanelVisible",
+        "userGuidePanelActiveKey",
+        "changeUserGuidePanelVisible",
+        "changeUserGuidePanelActiveKey"
+      ],
+      "sizeEstimate": 301,
+      "samples": [
+        {
+          "k": "initContentStorage",
+          "type": "function",
+          "value": "(e,t={},a=D)=>M(this,void 0,void 0,(function*(){!t.collabVersion||t.editorVersio"
+        },
+        {
+          "k": "getContent",
+          "type": "function",
+          "value": "e=>M(this,void 0,void 0,(function*(){this.throwErrorIfNoFileDataManager();try{co"
+        },
+        {
+          "k": "subscribeContentChange",
+          "type": "function",
+          "value": "(e,t)=>(this.throwErrorIfNoFileDataManager(),this.fileDataManager.subscribeConte"
+        }
+      ]
+    },
+    {
+      "path": "stateNode@(d0).current.lastEffect.stateNode.props",
+      "matchedKeys": [
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "getRemoteContent"
+      ],
+      "allKeys": [
+        "guid",
+        "allowedStorage",
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "createStorage",
+        "throwErrorIfNoFileDataManager",
+        "getRemoteContent",
+        "createFile",
+        "removeLocalData",
+        "config",
+        "me",
+        "file",
+        "checkpoint",
+        "sheetId",
+        "sos2User",
+        "sos2File",
+        "team",
+        "alphaFeatures",
+        "online",
+        "featuresState",
+        "dispatch",
+        "userGuidePanelVisible",
+        "userGuidePanelActiveKey",
+        "changeUserGuidePanelVisible",
+        "changeUserGuidePanelActiveKey"
+      ],
+      "sizeEstimate": 301,
+      "samples": [
+        {
+          "k": "initContentStorage",
+          "type": "function",
+          "value": "(e,t={},a=D)=>M(this,void 0,void 0,(function*(){!t.collabVersion||t.editorVersio"
+        },
+        {
+          "k": "getContent",
+          "type": "function",
+          "value": "e=>M(this,void 0,void 0,(function*(){this.throwErrorIfNoFileDataManager();try{co"
+        },
+        {
+          "k": "subscribeContentChange",
+          "type": "function",
+          "value": "(e,t)=>(this.throwErrorIfNoFileDataManager(),this.fileDataManager.subscribeConte"
+        }
+      ]
+    },
+    {
+      "path": "stateNode@(d0).current.lastEffect.pendingProps",
+      "matchedKeys": [
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "getRemoteContent"
+      ],
+      "allKeys": [
+        "guid",
+        "allowedStorage",
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "createStorage",
+        "throwErrorIfNoFileDataManager",
+        "getRemoteContent",
+        "createFile",
+        "removeLocalData",
+        "config",
+        "me",
+        "file",
+        "checkpoint",
+        "sheetId",
+        "sos2User",
+        "sos2File",
+        "team",
+        "alphaFeatures",
+        "online",
+        "featuresState",
+        "dispatch",
+        "userGuidePanelVisible",
+        "userGuidePanelActiveKey",
+        "changeUserGuidePanelVisible",
+        "changeUserGuidePanelActiveKey"
+      ],
+      "sizeEstimate": 301,
+      "samples": [
+        {
+          "k": "initContentStorage",
+          "type": "function",
+          "value": "(e,t={},a=D)=>M(this,void 0,void 0,(function*(){!t.collabVersion||t.editorVersio"
+        },
+        {
+          "k": "getContent",
+          "type": "function",
+          "value": "e=>M(this,void 0,void 0,(function*(){this.throwErrorIfNoFileDataManager();try{co"
+        },
+        {
+          "k": "subscribeContentChange",
+          "type": "function",
+          "value": "(e,t)=>(this.throwErrorIfNoFileDataManager(),this.fileDataManager.subscribeConte"
+        }
+      ]
+    },
+    {
+      "path": "stateNode@(d0).current.lastEffect.memoizedProps",
+      "matchedKeys": [
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "getRemoteContent"
+      ],
+      "allKeys": [
+        "guid",
+        "allowedStorage",
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "createStorage",
+        "throwErrorIfNoFileDataManager",
+        "getRemoteContent",
+        "createFile",
+        "removeLocalData",
+        "config",
+        "me",
+        "file",
+        "checkpoint",
+        "sheetId",
+        "sos2User",
+        "sos2File",
+        "team",
+        "alphaFeatures",
+        "online",
+        "featuresState",
+        "dispatch",
+        "userGuidePanelVisible",
+        "userGuidePanelActiveKey",
+        "changeUserGuidePanelVisible",
+        "changeUserGuidePanelActiveKey"
+      ],
+      "sizeEstimate": 301,
+      "samples": [
+        {
+          "k": "initContentStorage",
+          "type": "function",
+          "value": "(e,t={},a=D)=>M(this,void 0,void 0,(function*(){!t.collabVersion||t.editorVersio"
+        },
+        {
+          "k": "getContent",
+          "type": "function",
+          "value": "e=>M(this,void 0,void 0,(function*(){this.throwErrorIfNoFileDataManager();try{co"
+        },
+        {
+          "k": "subscribeContentChange",
+          "type": "function",
+          "value": "(e,t)=>(this.throwErrorIfNoFileDataManager(),this.fileDataManager.subscribeConte"
+        }
+      ]
+    },
+    {
+      "path": "stateNode@(d0).current.lastEffect.alternate.pendingProps",
+      "matchedKeys": [
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "getRemoteContent"
+      ],
+      "allKeys": [
+        "guid",
+        "allowedStorage",
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "createStorage",
+        "throwErrorIfNoFileDataManager",
+        "getRemoteContent",
+        "createFile",
+        "removeLocalData",
+        "config",
+        "me",
+        "file",
+        "checkpoint",
+        "sheetId",
+        "sos2User",
+        "sos2File",
+        "team",
+        "alphaFeatures",
+        "online",
+        "featuresState",
+        "dispatch",
+        "userGuidePanelVisible",
+        "userGuidePanelActiveKey",
+        "changeUserGuidePanelVisible",
+        "changeUserGuidePanelActiveKey"
+      ],
+      "sizeEstimate": 301,
+      "samples": [
+        {
+          "k": "initContentStorage",
+          "type": "function",
+          "value": "(e,t={},a=D)=>M(this,void 0,void 0,(function*(){!t.collabVersion||t.editorVersio"
+        },
+        {
+          "k": "getContent",
+          "type": "function",
+          "value": "e=>M(this,void 0,void 0,(function*(){this.throwErrorIfNoFileDataManager();try{co"
+        },
+        {
+          "k": "subscribeContentChange",
+          "type": "function",
+          "value": "(e,t)=>(this.throwErrorIfNoFileDataManager(),this.fileDataManager.subscribeConte"
+        }
+      ]
+    },
+    {
+      "path": "stateNode@(d0).current.lastEffect.alternate.memoizedProps",
+      "matchedKeys": [
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "getRemoteContent"
+      ],
+      "allKeys": [
+        "guid",
+        "allowedStorage",
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "createStorage",
+        "throwErrorIfNoFileDataManager",
+        "getRemoteContent",
+        "createFile",
+        "removeLocalData",
+        "config",
+        "me",
+        "file",
+        "checkpoint",
+        "sheetId",
+        "sos2User",
+        "sos2File",
+        "team",
+        "alphaFeatures",
+        "online",
+        "featuresState",
+        "dispatch",
+        "userGuidePanelVisible",
+        "userGuidePanelActiveKey",
+        "changeUserGuidePanelVisible",
+        "changeUserGuidePanelActiveKey"
+      ],
+      "sizeEstimate": 301,
+      "samples": [
+        {
+          "k": "initContentStorage",
+          "type": "function",
+          "value": "(e,t={},a=D)=>M(this,void 0,void 0,(function*(){!t.collabVersion||t.editorVersio"
+        },
+        {
+          "k": "getContent",
+          "type": "function",
+          "value": "e=>M(this,void 0,void 0,(function*(){this.throwErrorIfNoFileDataManager();try{co"
+        },
+        {
+          "k": "subscribeContentChange",
+          "type": "function",
+          "value": "(e,t)=>(this.throwErrorIfNoFileDataManager(),this.fileDataManager.subscribeConte"
+        }
+      ]
+    },
+    {
+      "path": "stateNode@z(d1)._reactInternalFiber.return.lastEffect.pendingProps",
+      "matchedKeys": [
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "getRemoteContent"
+      ],
+      "allKeys": [
+        "guid",
+        "allowedStorage",
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "createStorage",
+        "throwErrorIfNoFileDataManager",
+        "getRemoteContent",
+        "createFile",
+        "removeLocalData",
+        "config",
+        "me",
+        "file",
+        "checkpoint",
+        "sheetId",
+        "sos2User",
+        "sos2File",
+        "team",
+        "alphaFeatures",
+        "online",
+        "featuresState",
+        "dispatch",
+        "userGuidePanelVisible",
+        "userGuidePanelActiveKey",
+        "changeUserGuidePanelVisible",
+        "changeUserGuidePanelActiveKey"
+      ],
+      "sizeEstimate": 301,
+      "samples": [
+        {
+          "k": "initContentStorage",
+          "type": "function",
+          "value": "(e,t={},a=D)=>M(this,void 0,void 0,(function*(){!t.collabVersion||t.editorVersio"
+        },
+        {
+          "k": "getContent",
+          "type": "function",
+          "value": "e=>M(this,void 0,void 0,(function*(){this.throwErrorIfNoFileDataManager();try{co"
+        },
+        {
+          "k": "subscribeContentChange",
+          "type": "function",
+          "value": "(e,t)=>(this.throwErrorIfNoFileDataManager(),this.fileDataManager.subscribeConte"
+        }
+      ]
+    },
+    {
+      "path": "stateNode@z(d1)._reactInternalFiber.return.lastEffect.memoizedProps",
+      "matchedKeys": [
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "getRemoteContent"
+      ],
+      "allKeys": [
+        "guid",
+        "allowedStorage",
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "createStorage",
+        "throwErrorIfNoFileDataManager",
+        "getRemoteContent",
+        "createFile",
+        "removeLocalData",
+        "config",
+        "me",
+        "file",
+        "checkpoint",
+        "sheetId",
+        "sos2User",
+        "sos2File",
+        "team",
+        "alphaFeatures",
+        "online",
+        "featuresState",
+        "dispatch",
+        "userGuidePanelVisible",
+        "userGuidePanelActiveKey",
+        "changeUserGuidePanelVisible",
+        "changeUserGuidePanelActiveKey"
+      ],
+      "sizeEstimate": 301,
+      "samples": [
+        {
+          "k": "initContentStorage",
+          "type": "function",
+          "value": "(e,t={},a=D)=>M(this,void 0,void 0,(function*(){!t.collabVersion||t.editorVersio"
+        },
+        {
+          "k": "getContent",
+          "type": "function",
+          "value": "e=>M(this,void 0,void 0,(function*(){this.throwErrorIfNoFileDataManager();try{co"
+        },
+        {
+          "k": "subscribeContentChange",
+          "type": "function",
+          "value": "(e,t)=>(this.throwErrorIfNoFileDataManager(),this.fileDataManager.subscribeConte"
+        }
+      ]
+    },
+    {
+      "path": "stateNode@z(d1)._reactInternalFiber.lastEffect.stateNode.props",
+      "matchedKeys": [
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "getRemoteContent"
+      ],
+      "allKeys": [
+        "guid",
+        "allowedStorage",
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "createStorage",
+        "throwErrorIfNoFileDataManager",
+        "getRemoteContent",
+        "createFile",
+        "removeLocalData",
+        "config",
+        "me",
+        "file",
+        "checkpoint",
+        "sheetId",
+        "sos2User",
+        "sos2File",
+        "team",
+        "alphaFeatures",
+        "online",
+        "featuresState",
+        "dispatch",
+        "userGuidePanelVisible",
+        "userGuidePanelActiveKey",
+        "changeUserGuidePanelVisible",
+        "changeUserGuidePanelActiveKey"
+      ],
+      "sizeEstimate": 301,
+      "samples": [
+        {
+          "k": "initContentStorage",
+          "type": "function",
+          "value": "(e,t={},a=D)=>M(this,void 0,void 0,(function*(){!t.collabVersion||t.editorVersio"
+        },
+        {
+          "k": "getContent",
+          "type": "function",
+          "value": "e=>M(this,void 0,void 0,(function*(){this.throwErrorIfNoFileDataManager();try{co"
+        },
+        {
+          "k": "subscribeContentChange",
+          "type": "function",
+          "value": "(e,t)=>(this.throwErrorIfNoFileDataManager(),this.fileDataManager.subscribeConte"
+        }
+      ]
+    },
+    {
+      "path": "stateNode@z(d1)._reactInternalFiber.lastEffect.pendingProps",
+      "matchedKeys": [
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "getRemoteContent"
+      ],
+      "allKeys": [
+        "guid",
+        "allowedStorage",
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "createStorage",
+        "throwErrorIfNoFileDataManager",
+        "getRemoteContent",
+        "createFile",
+        "removeLocalData",
+        "config",
+        "me",
+        "file",
+        "checkpoint",
+        "sheetId",
+        "sos2User",
+        "sos2File",
+        "team",
+        "alphaFeatures",
+        "online",
+        "featuresState",
+        "dispatch",
+        "userGuidePanelVisible",
+        "userGuidePanelActiveKey",
+        "changeUserGuidePanelVisible",
+        "changeUserGuidePanelActiveKey"
+      ],
+      "sizeEstimate": 301,
+      "samples": [
+        {
+          "k": "initContentStorage",
+          "type": "function",
+          "value": "(e,t={},a=D)=>M(this,void 0,void 0,(function*(){!t.collabVersion||t.editorVersio"
+        },
+        {
+          "k": "getContent",
+          "type": "function",
+          "value": "e=>M(this,void 0,void 0,(function*(){this.throwErrorIfNoFileDataManager();try{co"
+        },
+        {
+          "k": "subscribeContentChange",
+          "type": "function",
+          "value": "(e,t)=>(this.throwErrorIfNoFileDataManager(),this.fileDataManager.subscribeConte"
+        }
+      ]
+    },
+    {
+      "path": "stateNode@z(d1)._reactInternalFiber.lastEffect.memoizedProps",
+      "matchedKeys": [
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "getRemoteContent"
+      ],
+      "allKeys": [
+        "guid",
+        "allowedStorage",
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "createStorage",
+        "throwErrorIfNoFileDataManager",
+        "getRemoteContent",
+        "createFile",
+        "removeLocalData",
+        "config",
+        "me",
+        "file",
+        "checkpoint",
+        "sheetId",
+        "sos2User",
+        "sos2File",
+        "team",
+        "alphaFeatures",
+        "online",
+        "featuresState",
+        "dispatch",
+        "userGuidePanelVisible",
+        "userGuidePanelActiveKey",
+        "changeUserGuidePanelVisible",
+        "changeUserGuidePanelActiveKey"
+      ],
+      "sizeEstimate": 301,
+      "samples": [
+        {
+          "k": "initContentStorage",
+          "type": "function",
+          "value": "(e,t={},a=D)=>M(this,void 0,void 0,(function*(){!t.collabVersion||t.editorVersio"
+        },
+        {
+          "k": "getContent",
+          "type": "function",
+          "value": "e=>M(this,void 0,void 0,(function*(){this.throwErrorIfNoFileDataManager();try{co"
+        },
+        {
+          "k": "subscribeContentChange",
+          "type": "function",
+          "value": "(e,t)=>(this.throwErrorIfNoFileDataManager(),this.fileDataManager.subscribeConte"
+        }
+      ]
+    },
+    {
+      "path": "stateNode@z(d1)._reactInternalFiber.lastEffect.alternate.pendingProps",
+      "matchedKeys": [
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "getRemoteContent"
+      ],
+      "allKeys": [
+        "guid",
+        "allowedStorage",
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "createStorage",
+        "throwErrorIfNoFileDataManager",
+        "getRemoteContent",
+        "createFile",
+        "removeLocalData",
+        "config",
+        "me",
+        "file",
+        "checkpoint",
+        "sheetId",
+        "sos2User",
+        "sos2File",
+        "team",
+        "alphaFeatures",
+        "online",
+        "featuresState",
+        "dispatch",
+        "userGuidePanelVisible",
+        "userGuidePanelActiveKey",
+        "changeUserGuidePanelVisible",
+        "changeUserGuidePanelActiveKey"
+      ],
+      "sizeEstimate": 301,
+      "samples": [
+        {
+          "k": "initContentStorage",
+          "type": "function",
+          "value": "(e,t={},a=D)=>M(this,void 0,void 0,(function*(){!t.collabVersion||t.editorVersio"
+        },
+        {
+          "k": "getContent",
+          "type": "function",
+          "value": "e=>M(this,void 0,void 0,(function*(){this.throwErrorIfNoFileDataManager();try{co"
+        },
+        {
+          "k": "subscribeContentChange",
+          "type": "function",
+          "value": "(e,t)=>(this.throwErrorIfNoFileDataManager(),this.fileDataManager.subscribeConte"
+        }
+      ]
+    },
+    {
+      "path": "stateNode@z(d1)._reactInternalFiber.lastEffect.alternate.memoizedProps",
+      "matchedKeys": [
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "getRemoteContent"
+      ],
+      "allKeys": [
+        "guid",
+        "allowedStorage",
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "createStorage",
+        "throwErrorIfNoFileDataManager",
+        "getRemoteContent",
+        "createFile",
+        "removeLocalData",
+        "config",
+        "me",
+        "file",
+        "checkpoint",
+        "sheetId",
+        "sos2User",
+        "sos2File",
+        "team",
+        "alphaFeatures",
+        "online",
+        "featuresState",
+        "dispatch",
+        "userGuidePanelVisible",
+        "userGuidePanelActiveKey",
+        "changeUserGuidePanelVisible",
+        "changeUserGuidePanelActiveKey"
+      ],
+      "sizeEstimate": 301,
+      "samples": [
+        {
+          "k": "initContentStorage",
+          "type": "function",
+          "value": "(e,t={},a=D)=>M(this,void 0,void 0,(function*(){!t.collabVersion||t.editorVersio"
+        },
+        {
+          "k": "getContent",
+          "type": "function",
+          "value": "e=>M(this,void 0,void 0,(function*(){this.throwErrorIfNoFileDataManager();try{co"
+        },
+        {
+          "k": "subscribeContentChange",
+          "type": "function",
+          "value": "(e,t)=>(this.throwErrorIfNoFileDataManager(),this.fileDataManager.subscribeConte"
+        }
+      ]
+    },
+    {
+      "path": "stateNode@s(d4)._reactInternalFiber.return.lastEffect.pendingProps",
+      "matchedKeys": [
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "getRemoteContent"
+      ],
+      "allKeys": [
+        "guid",
+        "allowedStorage",
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "createStorage",
+        "throwErrorIfNoFileDataManager",
+        "getRemoteContent",
+        "createFile",
+        "removeLocalData",
+        "config",
+        "me",
+        "file",
+        "checkpoint",
+        "sheetId",
+        "sos2User",
+        "sos2File",
+        "team",
+        "alphaFeatures",
+        "online",
+        "featuresState",
+        "dispatch",
+        "userGuidePanelVisible",
+        "userGuidePanelActiveKey",
+        "changeUserGuidePanelVisible",
+        "changeUserGuidePanelActiveKey"
+      ],
+      "sizeEstimate": 301,
+      "samples": [
+        {
+          "k": "initContentStorage",
+          "type": "function",
+          "value": "(e,t={},a=D)=>M(this,void 0,void 0,(function*(){!t.collabVersion||t.editorVersio"
+        },
+        {
+          "k": "getContent",
+          "type": "function",
+          "value": "e=>M(this,void 0,void 0,(function*(){this.throwErrorIfNoFileDataManager();try{co"
+        },
+        {
+          "k": "subscribeContentChange",
+          "type": "function",
+          "value": "(e,t)=>(this.throwErrorIfNoFileDataManager(),this.fileDataManager.subscribeConte"
+        }
+      ]
+    },
+    {
+      "path": "stateNode@s(d4)._reactInternalFiber.return.lastEffect.memoizedProps",
+      "matchedKeys": [
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "getRemoteContent"
+      ],
+      "allKeys": [
+        "guid",
+        "allowedStorage",
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "createStorage",
+        "throwErrorIfNoFileDataManager",
+        "getRemoteContent",
+        "createFile",
+        "removeLocalData",
+        "config",
+        "me",
+        "file",
+        "checkpoint",
+        "sheetId",
+        "sos2User",
+        "sos2File",
+        "team",
+        "alphaFeatures",
+        "online",
+        "featuresState",
+        "dispatch",
+        "userGuidePanelVisible",
+        "userGuidePanelActiveKey",
+        "changeUserGuidePanelVisible",
+        "changeUserGuidePanelActiveKey"
+      ],
+      "sizeEstimate": 301,
+      "samples": [
+        {
+          "k": "initContentStorage",
+          "type": "function",
+          "value": "(e,t={},a=D)=>M(this,void 0,void 0,(function*(){!t.collabVersion||t.editorVersio"
+        },
+        {
+          "k": "getContent",
+          "type": "function",
+          "value": "e=>M(this,void 0,void 0,(function*(){this.throwErrorIfNoFileDataManager();try{co"
+        },
+        {
+          "k": "subscribeContentChange",
+          "type": "function",
+          "value": "(e,t)=>(this.throwErrorIfNoFileDataManager(),this.fileDataManager.subscribeConte"
+        }
+      ]
+    },
+    {
+      "path": "stateNode@s(d4)._reactInternalFiber.child.lastEffect.pendingProps",
+      "matchedKeys": [
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "getRemoteContent"
+      ],
+      "allKeys": [
+        "guid",
+        "allowedStorage",
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "createStorage",
+        "throwErrorIfNoFileDataManager",
+        "getRemoteContent",
+        "createFile",
+        "removeLocalData",
+        "config",
+        "me",
+        "file",
+        "checkpoint",
+        "sheetId",
+        "sos2User",
+        "sos2File",
+        "team",
+        "alphaFeatures",
+        "online",
+        "featuresState",
+        "dispatch",
+        "userGuidePanelVisible",
+        "userGuidePanelActiveKey",
+        "changeUserGuidePanelVisible",
+        "changeUserGuidePanelActiveKey"
+      ],
+      "sizeEstimate": 301,
+      "samples": [
+        {
+          "k": "initContentStorage",
+          "type": "function",
+          "value": "(e,t={},a=D)=>M(this,void 0,void 0,(function*(){!t.collabVersion||t.editorVersio"
+        },
+        {
+          "k": "getContent",
+          "type": "function",
+          "value": "e=>M(this,void 0,void 0,(function*(){this.throwErrorIfNoFileDataManager();try{co"
+        },
+        {
+          "k": "subscribeContentChange",
+          "type": "function",
+          "value": "(e,t)=>(this.throwErrorIfNoFileDataManager(),this.fileDataManager.subscribeConte"
+        }
+      ]
+    },
+    {
+      "path": "stateNode@s(d4)._reactInternalFiber.child.lastEffect.memoizedProps",
+      "matchedKeys": [
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "getRemoteContent"
+      ],
+      "allKeys": [
+        "guid",
+        "allowedStorage",
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "createStorage",
+        "throwErrorIfNoFileDataManager",
+        "getRemoteContent",
+        "createFile",
+        "removeLocalData",
+        "config",
+        "me",
+        "file",
+        "checkpoint",
+        "sheetId",
+        "sos2User",
+        "sos2File",
+        "team",
+        "alphaFeatures",
+        "online",
+        "featuresState",
+        "dispatch",
+        "userGuidePanelVisible",
+        "userGuidePanelActiveKey",
+        "changeUserGuidePanelVisible",
+        "changeUserGuidePanelActiveKey"
+      ],
+      "sizeEstimate": 301,
+      "samples": [
+        {
+          "k": "initContentStorage",
+          "type": "function",
+          "value": "(e,t={},a=D)=>M(this,void 0,void 0,(function*(){!t.collabVersion||t.editorVersio"
+        },
+        {
+          "k": "getContent",
+          "type": "function",
+          "value": "e=>M(this,void 0,void 0,(function*(){this.throwErrorIfNoFileDataManager();try{co"
+        },
+        {
+          "k": "subscribeContentChange",
+          "type": "function",
+          "value": "(e,t)=>(this.throwErrorIfNoFileDataManager(),this.fileDataManager.subscribeConte"
+        }
+      ]
+    },
+    {
+      "path": "stateNode@s(d4)._reactInternalFiber.lastEffect.stateNode.props",
+      "matchedKeys": [
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "getRemoteContent"
+      ],
+      "allKeys": [
+        "guid",
+        "allowedStorage",
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "createStorage",
+        "throwErrorIfNoFileDataManager",
+        "getRemoteContent",
+        "createFile",
+        "removeLocalData",
+        "config",
+        "me",
+        "file",
+        "checkpoint",
+        "sheetId",
+        "sos2User",
+        "sos2File",
+        "team",
+        "alphaFeatures",
+        "online",
+        "featuresState",
+        "dispatch",
+        "userGuidePanelVisible",
+        "userGuidePanelActiveKey",
+        "changeUserGuidePanelVisible",
+        "changeUserGuidePanelActiveKey"
+      ],
+      "sizeEstimate": 301,
+      "samples": [
+        {
+          "k": "initContentStorage",
+          "type": "function",
+          "value": "(e,t={},a=D)=>M(this,void 0,void 0,(function*(){!t.collabVersion||t.editorVersio"
+        },
+        {
+          "k": "getContent",
+          "type": "function",
+          "value": "e=>M(this,void 0,void 0,(function*(){this.throwErrorIfNoFileDataManager();try{co"
+        },
+        {
+          "k": "subscribeContentChange",
+          "type": "function",
+          "value": "(e,t)=>(this.throwErrorIfNoFileDataManager(),this.fileDataManager.subscribeConte"
+        }
+      ]
+    },
+    {
+      "path": "stateNode@s(d4)._reactInternalFiber.lastEffect.pendingProps",
+      "matchedKeys": [
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "getRemoteContent"
+      ],
+      "allKeys": [
+        "guid",
+        "allowedStorage",
+        "initContentStorage",
+        "getContent",
+        "subscribeContentChange",
+        "createStorage",
+        "throwErrorIfNoFileDataManager",
+        "getRemoteContent",
+        "createFile",
+        "removeLocalData",
+        "config",
+        "me",
+        "file",
+        "checkpoint",
+        "sheetId",
+        "sos2User",
+        "sos2File",
+        "team",
+        "alphaFeatures",
+        "online",
+        "featuresState",
+        "dispatch",
+        "userGuidePanelVisible",
+        "userGuidePanelActiveKey",
+        "changeUserGuidePanelVisible",
+        "changeUserGuidePanelActiveKey"
+      ],
+      "sizeEstimate": 301,
+      "samples": [
+        {
+          "k": "initContentStorage",
+          "type": "function",
+          "value": "(e,t={},a=D)=>M(this,void 0,void 0,(function*(){!t.collabVersion||t.editorVersio"
+        },
+        {
+          "k": "getContent",
+          "type": "function",
+          "value": "e=>M(this,void 0,void 0,(function*(){this.throwErrorIfNoFileDataManager();try{co"
+        },
+        {
+          "k": "subscribeContentChange",
+          "type": "function",
+          "value": "(e,t)=>(this.throwErrorIfNoFileDataManager(),this.fileDataManager.subscribeConte"
+        }
+      ]
+    }
+  ],
+  "bigStates": [],
+  "hostRootTag": 3
+}

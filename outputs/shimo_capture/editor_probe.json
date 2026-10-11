@@ -1,0 +1,51 @@
+{
+  "_shimoAllKeys": [
+    "lizardInjecor",
+    "history",
+    "store",
+    "emitter",
+    "socket"
+  ],
+  "shimo.lizardInjecor.keys": [
+    "injectedComponentsMap"
+  ],
+  "shimo.history.keys": [
+    "length",
+    "action",
+    "location",
+    "createHref",
+    "push",
+    "replace",
+    "go",
+    "goBack",
+    "goForward",
+    "block",
+    "listen"
+  ],
+  "shimo.store.keys": [
+    "dispatch",
+    "subscribe",
+    "getState",
+    "replaceReducer",
+    "@@observable"
+  ],
+  "shimo.emitter.keys": [
+    "e"
+  ],
+  "shimo.socket.keys": [
+    "io",
+    "nsp",
+    "json",
+    "ids",
+    "acks",
+    "receiveBuffer",
+    "sendBuffer",
+    "connected",
+    "disconnected",
+    "flags",
+    "query",
+    "subs",
+    "_callbacks",
+    "id"
+  ]
+}

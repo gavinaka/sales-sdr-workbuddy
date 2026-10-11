@@ -1,0 +1,144 @@
+{% extends 'base.html' %}
+{% block title %}总览看板 - SDR客户分级系统{% endblock %}
+{% block content %}
+<h1 class="page-title">总览看板</h1>
+
+<div class="kpi-grid">
+  <div class="kpi-card kpi-total">
+    <div class="kpi-label">总客户数</div>
+    <div class="kpi-value">{{ kpi.total }}</div>
+  </div>
+  <div class="kpi-card grade-s">
+    <div class="kpi-label">S级 必跟</div>
+    <div class="kpi-value">{{ kpi.s }}</div>
+  </div>
+  <div class="kpi-card grade-a2">
+    <div class="kpi-label">A2 重点</div>
+    <div class="kpi-value">{{ kpi.a2 }}</div>
+  </div>
+  <div class="kpi-card grade-a3">
+    <div class="kpi-label">A3 常规A</div>
+    <div class="kpi-value">{{ kpi.a3 }}</div>
+  </div>
+  <div class="kpi-card grade-b">
+    <div class="kpi-label">B级</div>
+    <div class="kpi-value">{{ kpi.b }}</div>
+  </div>
+  <div class="kpi-card grade-c">
+    <div class="kpi-label">C级</div>
+    <div class="kpi-value">{{ kpi.c }}</div>
+  </div>
+  <div class="kpi-card kpi-pay">
+    <div class="kpi-label">总付费金额</div>
+    <div class="kpi-value">¥{{ "%.0f"|format(kpi.total_pay) }}</div>
+  </div>
+  <div class="kpi-card kpi-expire">
+    <div class="kpi-label">7天内到期</div>
+    <div class="kpi-value">{{ kpi.expiring_7 }}</div>
+  </div>
+  <div class="kpi-card kpi-today">
+    <div class="kpi-label">今日已回访</div>
+    <div class="kpi-value">{{ kpi.today_visited }}</div>
+  </div>
+</div>
+
+<div class="charts-row">
+  <div class="chart-card">
+    <h3 class="chart-title">客户分级分布</h3>
+    <canvas id="pieChart" width="360" height="320"></canvas>
+  </div>
+  <div class="chart-card">
+    <h3 class="chart-title">行业 TOP10</h3>
+    <canvas id="barIndustry" width="480" height="320"></canvas>
+  </div>
+  <div class="chart-card">
+    <h3 class="chart-title">业务类型分布</h3>
+    <canvas id="barBiz" width="480" height="320"></canvas>
+  </div>
+</div>
+
+<div class="quick-link-wrap">
+  <a class="btn-primary" href="/customers">查看全部客户 →</a>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+var gradeDist = {{ grade_dist|tojson }};
+var industryTop = {{ industry_top|tojson }};
+var bizDist = {{ biz_dist|tojson }};
+
+// ---- 饼图 ----
+function drawPie(canvas, data){
+  var ctx = canvas.getContext('2d');
+  var w = canvas.width, h = canvas.height;
+  ctx.clearRect(0,0,w,h);
+  var cx = w/2, cy = h/2;
+  var r = Math.min(w,h)/2 - 30;
+  var total = data.reduce(function(s,d){return s+d.count;},0);
+  if (total === 0) return;
+  var start = -Math.PI/2;
+  data.forEach(function(d){
+    var angle = d.count/total * Math.PI*2;
+    ctx.beginPath();
+    ctx.moveTo(cx,cy);
+    ctx.arc(cx,cy,r,start,start+angle);
+    ctx.closePath();
+    ctx.fillStyle = d.color;
+    ctx.fill();
+    ctx.strokeStyle = '#fff';
+    ctx.lineWidth = 2;
+    ctx.stroke();
+    // 标签
+    var mid = start + angle/2;
+    var lx = cx + (r+18)*Math.cos(mid);
+    var ly = cy + (r+18)*Math.sin(mid);
+    ctx.fillStyle = getComputedStyle(document.body).color;
+    ctx.font = '12px 微软雅黑';
+    ctx.textAlign = lx < cx ? 'right' : 'left';
+    ctx.fillText(d.name + '(' + d.count + ')', lx, ly);
+    start += angle;
+  });
+}
+
+// ---- 柱状图 ----
+function drawBar(canvas, data, color){
+  var ctx = canvas.getContext('2d');
+  var w = canvas.width, h = canvas.height;
+  ctx.clearRect(0,0,w,h);
+  if (!data.length) return;
+  var max = Math.max.apply(null, data.map(function(d){return d.count;}));
+  var padL = 110, padR = 40, padT = 20, padB = 10;
+  var chartW = w - padL - padR;
+  var chartH = h - padT - padB;
+  var barH = chartH / data.length * 0.6;
+  var gap = chartH / data.length * 0.4;
+  var textColor = getComputedStyle(document.body).color;
+
+  data.forEach(function(d, i){
+    var y = padT + i * (chartH / data.length) + gap/2;
+    var bw = chartW * (d.count / max);
+    // 背景轨道
+    ctx.fillStyle = 'rgba(127,127,127,0.1)';
+    ctx.fillRect(padL, y, chartW, barH);
+    // 柱子
+    ctx.fillStyle = color;
+    ctx.fillRect(padL, y, bw, barH);
+    // 标签
+    ctx.fillStyle = textColor;
+    ctx.font = '12px 微软雅黑';
+    ctx.textAlign = 'right';
+    ctx.textBaseline = 'middle';
+    var name = d.name.length > 8 ? d.name.slice(0,8)+'…' : d.name;
+    ctx.fillText(name, padL - 8, y + barH/2);
+    // 数值
+    ctx.textAlign = 'left';
+    ctx.fillText(d.count, padL + bw + 6, y + barH/2);
+  });
+}
+
+drawPie(document.getElementById('pieChart'), gradeDist);
+drawBar(document.getElementById('barIndustry'), industryTop, '#4472C4');
+drawBar(document.getElementById('barBiz'), bizDist, '#70AD47');
+</script>
+{% endblock %}

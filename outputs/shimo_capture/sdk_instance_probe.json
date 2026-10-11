@@ -1,0 +1,204 @@
+{
+  "_matchedGlobalKeys": [
+    "document",
+    "documentPictureInPicture",
+    "shimo",
+    "_SHIMO_BRAODCAST_",
+    "SHIMO_APM",
+    "@shimo/editor-sdk-sheet"
+  ],
+  "window.SHIMO_APM": {
+    "type": "object",
+    "methods": [
+      "getAPM"
+    ]
+  },
+  "window.@shimo/editor-sdk-sheet": {
+    "type": "object",
+    "methods": [
+      "createSheetSDK"
+    ]
+  },
+  "_domInstances": [
+    {
+      "tag": "DIV",
+      "cls": "spreadsheet-view",
+      "vueKeys": [],
+      "otherKeys": [
+        "__reactInternalInstance$xv0pique4q",
+        "__reactEventHandlers$xv0pique4q"
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "sm-sheet-wrapper",
+      "vueKeys": [],
+      "otherKeys": [
+        "__reactContainere$xv0pique4q"
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "cls": "sm-sheet-input sm-sheet-input-m sm-sheet-input-bas",
+      "vueKeys": [],
+      "otherKeys": [
+        "__reactInternalInstance$xv0pique4q",
+        "__reactEventHandlers$xv0pique4q"
+      ]
+    },
+    {
+      "tag": "SPAN",
+      "cls": "sm-sheet-loading-rotate",
+      "vueKeys": [],
+      "otherKeys": [
+        "__reactInternalInstance$xv0pique4q",
+        "__reactEventHandlers$xv0pique4q"
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "sm-sheet-editor-wrap sm-sheet-readonly",
+      "vueKeys": [],
+      "otherKeys": [
+        "__reactInternalInstance$xv0pique4q",
+        "__reactEventHandlers$xv0pique4q"
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "sm-sheet-viewport-container",
+      "vueKeys": [],
+      "otherKeys": [
+        "__reactInternalInstance$xv0pique4q",
+        "__reactEventHandlers$xv0pique4q"
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "sm-sheet-view-mask",
+      "vueKeys": [],
+      "otherKeys": [
+        "__reactInternalInstance$xv0pique4q",
+        "__reactEventHandlers$xv0pique4q"
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "",
+      "vueKeys": [],
+      "otherKeys": [
+        "__reactInternalInstance$xv0pique4q",
+        "__reactEventHandlers$xv0pique4q",
+        "__reactContainere$xv0pique4q"
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "",
+      "vueKeys": [],
+      "otherKeys": [
+        "__reactInternalInstance$xv0pique4q",
+        "__reactEventHandlers$xv0pique4q"
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "sm-sheet-independent-viewport-editor",
+      "vueKeys": [],
+      "otherKeys": [
+        "__reactInternalInstance$xv0pique4q",
+        "__reactEventHandlers$xv0pique4q",
+        "__reactContainere$xv0pique4q"
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "cls": "sm-sheet-input sm-sheet-input-m sm-sheet-input-bas",
+      "vueKeys": [],
+      "otherKeys": [
+        "__reactInternalInstance$xv0pique4q",
+        "__reactEventHandlers$xv0pique4q"
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "sm-sheet-view sm-sheet-fx-enable sm-sheet-no-selec",
+      "vueKeys": [],
+      "otherKeys": [
+        "__reactInternalInstance$xv0pique4q",
+        "__reactEventHandlers$xv0pique4q"
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "sm-sheet-auto-complete-dropdown",
+      "vueKeys": [],
+      "otherKeys": [
+        "__reactInternalInstance$xv0pique4q",
+        "__reactEventHandlers$xv0pique4q"
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "sm-sheet-abnormal-data-propmt-box hide",
+      "vueKeys": [],
+      "otherKeys": [
+        "__reactInternalInstance$xv0pique4q",
+        "__reactEventHandlers$xv0pique4q"
+      ]
+    },
+    {
+      "tag": "SPAN",
+      "cls": "sm-sheet-button sm-sheet-button-normal sm-sheet-bu",
+      "vueKeys": [],
+      "otherKeys": [
+        "__reactInternalInstance$xv0pique4q",
+        "__reactEventHandlers$xv0pique4q"
+      ]
+    },
+    {
+      "tag": "SPAN",
+      "cls": "sm-sheet-button sm-sheet-button-normal sm-sheet-bu",
+      "vueKeys": [],
+      "otherKeys": [
+        "__reactInternalInstance$xv0pique4q",
+        "__reactEventHandlers$xv0pique4q"
+      ]
+    },
+    {
+      "tag": "SPAN",
+      "cls": "sm-sheet-button sm-sheet-button-normal sm-sheet-bu",
+      "vueKeys": [],
+      "otherKeys": [
+        "__reactInternalInstance$xv0pique4q",
+        "__reactEventHandlers$xv0pique4q"
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "sm-sheet-editor-contextmenu-wrapper",
+      "vueKeys": [],
+      "otherKeys": [
+        "__reactInternalInstance$xv0pique4q",
+        "__reactEventHandlers$xv0pique4q"
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "sm-sheet-editor-contextmenu clear-fix  hidden",
+      "vueKeys": [],
+      "otherKeys": [
+        "__reactInternalInstance$xv0pique4q",
+        "__reactEventHandlers$xv0pique4q"
+      ]
+    },
+    {
+      "tag": "DIV",
+      "cls": "sm-sheet-footer",
+      "vueKeys": [],
+      "otherKeys": [
+        "__reactContainere$xv0pique4q"
+      ]
+    }
+  ]
+}
