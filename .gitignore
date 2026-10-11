@@ -1,0 +1,15 @@
+# bibi desktop-sync: never commit secrets or huge files
+*.pem
+*.key
+.env
+auth.json
+credentials.json
+node_modules/
+.venv/
+.pytest_cache/
+.next/
+.git/
+__pycache__/
+*.log
+.DS_Store
+Thumbs.db
